@@ -1,0 +1,450 @@
+/* CSS Document */
+#bodypr{
+ background: #E5E5E5;
+}
+
+#header{
+  text-align: center;
+  padding: 3px;
+  background-color: #1E8449;
+  color: white;
+  font-size: 60px;
+}
+
+
+
+#txtbox{
+  position: absolute;
+width: 577px;
+height: 248px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+
+/* Dark blue/dark-blue-300 */
+
+color: #0A3871;
+}
+
+#frame1{
+ margin-top: 10px;
+}
+
+#aviso{
+color: #0A3871;
+font-weight: bold;
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: absolute;
+width: 250px;
+height: 18px;
+left: 240px;
+top: 420px;
+ 
+}
+
+/* From uiverse.io by @SharpTH */
+.btn-cssbuttons {
+ --btn-color: #275efe;
+ position: relative;
+ padding: 16px 32px;
+ font-family: Roboto, sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1;
+ color: white;
+ background: none;
+ border: none;
+ outline: none;
+ overflow: hidden;
+ cursor: pointer;
+ filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+ left: 240px;
+ top: 400px;
+ }
+
+.btn-cssbuttons::before {
+ position: absolute;
+ content: "";
+ top: 0;
+ left: 0;
+ z-index: -1;
+ width: 100%;
+ height: 100%;
+ background: var(--btn-color);
+ border-radius: 24px;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons span,
+.btn-cssbuttons span span {
+ display: inline-flex;
+ vertical-align: middle;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons span {
+ transition-delay: 0.05s;
+}
+
+.btn-cssbuttons span:first-child {
+ padding-right: 7px;
+}
+
+.btn-cssbuttons span span {
+ margin-left: 8px;
+ transition-delay: 0.1s;
+}
+
+.btn-cssbuttons ul {
+ position: absolute;
+ top: 50%;
+ left: 0;
+ right: 0;
+ display: flex;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ transform: translateY(-50%);
+}
+
+.btn-cssbuttons ul li {
+ flex: 1;
+}
+
+.btn-cssbuttons ul li a {
+ display: inline-flex;
+ vertical-align: middle;
+ transform: translateY(55px);
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons ul li a:hover {
+ opacity: 0.5;
+}
+
+.btn-cssbuttons:hover::before {
+ transform: scale(1.2);
+}
+
+.btn-cssbuttons:hover span,
+.btn-cssbuttons:hover span span {
+ transform: translateY(-55px);
+}
+
+.btn-cssbuttons:hover ul li a {
+ transform: translateY(0);
+}
+
+.btn-cssbuttons:hover ul li:nth-child(1) a {
+ transition-delay: 0.15s;
+}
+
+.btn-cssbuttons:hover ul li:nth-child(2) a {
+ transition-delay: 0.2s;
+}
+
+.btn-cssbuttons:hover ul li:nth-child(3) a {
+ transition-delay: 0.25s;
+}
+
+/* From uiverse.io by @SharpTH */
+.btn-cssbuttons2 {
+ --btn-color: #BF0622 ;
+ position: relative;
+ padding: 16px 32px;
+ font-family: Roboto, sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1;
+ color: white;
+ background: none;
+ border: none;
+ outline: none;
+ overflow: hidden;
+ cursor: pointer;
+ filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+ left: 500px;
+ top: 400px;
+ }
+
+.btn-cssbuttons2::before {
+ position: absolute;
+ content: "";
+ top: 0;
+ left: 0;
+ z-index: -1;
+ width: 100%;
+ height: 100%;
+ background: var(--btn-color);
+ border-radius: 24px;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons2 span,
+.btn-cssbuttons2 span span {
+ display: inline-flex;
+ vertical-align: middle;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons2 span {
+ transition-delay: 0.05s;
+}
+
+.btn-cssbuttons2 span:first-child {
+ padding-right: 7px;
+}
+
+.btn-cssbuttons2 span span {
+ margin-left: 8px;
+ transition-delay: 0.1s;
+}
+
+.btn-cssbuttons2 ul {
+ position: absolute;
+ top: 50%;
+ left: 0;
+ right: 0;
+ display: flex;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ transform: translateY(-50%);
+}
+
+.btn-cssbuttons2 ul li {
+ flex: 1;
+}
+
+.btn-cssbuttons2 ul li a {
+ display: inline-flex;
+ vertical-align: middle;
+ transform: translateY(55px);
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons2 ul li a:hover {
+ opacity: 0.5;
+}
+
+.btn-cssbuttons2:hover::before {
+ transform: scale(1.2);
+}
+
+.btn-cssbuttons2:hover span,
+.btn-cssbuttons2:hover span span {
+ transform: translateY(-55px);
+}
+
+.btn-cssbuttons2:hover ul li a {
+ transform: translateY(0);
+}
+
+.btn-cssbuttons2:hover ul li:nth-child(1) a {
+ transition-delay: 0.15s;
+}
+
+.btn-cssbuttons2:hover ul li:nth-child(2) a {
+ transition-delay: 0.2s;
+}
+
+.btn-cssbuttons2:hover ul li:nth-child(3) a {
+ transition-delay: 0.25s;
+}
+
+#footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #080C1F ;
+  color: white;
+  margin-top: 450px;
+}
+
+#footer a{
+ color: #FFFFFF;
+}
+
+#left {
+position: absolute;
+width: 316px;
+height: 510px;
+left: 1050px;
+top: 82px;
+
+/* White */
+
+background: #FFFFFF;
+/* shadow */
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+}
+
+#resultado{
+width: 250px;
+margin-top: 20px;
+margin-left: 3px;
+}
+
+#mensaje1{
+padding-top: 30px;
+padding-left: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #343A40;
+}
+
+#mensaje2{
+padding-top: 30px;
+padding-left: 30px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 29px */
+
+text-align: center;
+
+/* Gray/gray-500 */
+
+color: #495057;
+}
+
+/* From uiverse.io by @SharpTH */
+.btn-cssbuttons3 {
+ --btn-color: #535453 ;
+ position: relative;
+ padding: 16px 32px;
+ font-family: Roboto, sans-serif;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 1;
+ color: white;
+ background: none;
+ border: none;
+ outline: none;
+ overflow: hidden;
+ cursor: pointer;
+ filter: drop-shadow(0 2px 8px rgba(39, 94, 254, 0.32));
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+ left: 65px;
+ top: 80px;
+ }
+
+.btn-cssbuttons3::before {
+ position: absolute;
+ content: "";
+ top: 0;
+ left: 0;
+ z-index: -1;
+ width: 100%;
+ height: 100%;
+ background: var(--btn-color);
+ border-radius: 24px;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons3 span,
+.btn-cssbuttons3 span span {
+ display: inline-flex;
+ vertical-align: middle;
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons3 span {
+ transition-delay: 0.05s;
+}
+
+.btn-cssbuttons3 span:first-child {
+ padding-right: 7px;
+}
+
+.btn-cssbuttons3 span span {
+ margin-left: 8px;
+ transition-delay: 0.1s;
+}
+
+.btn-cssbuttons3 ul {
+ position: absolute;
+ top: 50%;
+ left: 0;
+ right: 0;
+ display: flex;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ transform: translateY(-50%);
+}
+
+.btn-cssbuttons3 ul li {
+ flex: 1;
+}
+
+.btn-cssbuttons3 ul li a {
+ display: inline-flex;
+ vertical-align: middle;
+ transform: translateY(55px);
+ transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.btn-cssbuttons3 ul li a:hover {
+ opacity: 0.5;
+}
+
+.btn-cssbuttons3:hover::before {
+ transform: scale(1.2);
+}
+
+.btn-cssbuttons3:hover span,
+.btn-cssbuttons3:hover span span {
+ transform: translateY(-55px);
+}
+
+.btn-cssbuttons3:hover ul li a {
+ transform: translateY(0);
+}
+
+.btn-cssbuttons3:hover ul li:nth-child(1) a {
+ transition-delay: 0.15s;
+}
+
+.btn-cssbuttons3:hover ul li:nth-child(2) a {
+ transition-delay: 0.2s;
+}
+
+.btn-cssbuttons3:hover ul li:nth-child(3) a {
+ transition-delay: 0.25s;
+}
+
+#resultado{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+}
+
+
+
+
